@@ -2,6 +2,7 @@ import requests
 from datetime import datetime
 
 # New function for weekday
+# added another comment for testing
 def is_weekday():
     today = datetime.today()
     return (0<= today.weekday()<5)
